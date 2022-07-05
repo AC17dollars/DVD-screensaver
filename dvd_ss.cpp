@@ -13,8 +13,8 @@ int main()
     sf::Sprite sprite(texture);
 
     //randomly choose starting point of sprite
-    int x = rand() % 1000;
-    int y = rand() % 600;
+    int x = rand() % 900;
+    int y = rand() % 500;
     
     sf::Vector2f shapePosition(x, y);
     sprite.setPosition(shapePosition);
